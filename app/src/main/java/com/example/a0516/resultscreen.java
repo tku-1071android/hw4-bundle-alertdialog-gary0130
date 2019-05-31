@@ -52,6 +52,9 @@ public class resultscreen extends AppCompatActivity {
 
         AlertDialog.Builder builder =new AlertDialog.Builder(this);
         builder.setTitle(tit).setMessage(msg).setIcon(pic);
+        builder.setPositiveButton("OK",null);
+        builder.setNegativeButton("Cancel",null);
+        builder.setNeutralButton("Nothing",null);
         builder.show();
     }
 
